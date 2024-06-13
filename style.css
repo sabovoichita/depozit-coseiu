@@ -1,3 +1,6 @@
+html {
+}
+
 h1,
 h2,
 h4 {
@@ -225,7 +228,6 @@ h4 {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-
     justify-content: flex-start;
     position: fixed;
     top: 0;
@@ -239,5 +241,9 @@ h4 {
   }
   #navbar li {
     margin-bottom: 25px;
+  }
+  .pro img {
+    height: 300px;
+    padding-bottom: 20px;
   }
 }
