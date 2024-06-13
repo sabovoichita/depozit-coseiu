@@ -246,4 +246,7 @@ h4 {
     height: 300px;
     padding-bottom: 20px;
   }
+  #header-logo img {
+    display: none;
+  }
 }
