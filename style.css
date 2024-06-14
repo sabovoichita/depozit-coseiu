@@ -2,8 +2,13 @@
   box-sizing: border-box;
 }
 
-html {
-  height: 100%;
+html,
+body {
+  min-height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
 }
 
 h1,
@@ -29,12 +34,14 @@ h3 {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 20px 50px;
+  padding: 0px;
   background-color: #e3e6f3;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
   z-index: 999;
   position: sticky;
   left: 0;
+  top: 0;
+  right: 0;
   background-image: linear-gradient(to top left, #0072ff, #00c6ff);
 }
 #navbar {
@@ -53,6 +60,7 @@ h3 {
   font-weight: 600;
   color: white;
   transition: 0.3s ease;
+  white-space: nowrap;
 }
 #navbar li a:hover,
 #navbar li a.active {
@@ -264,11 +272,10 @@ h3 {
     margin: 0 5px;
     padding: 2px;
     position: relative;
-    /* border: 2px solid #0072ff; */
     border-radius: 10px;
-    border-bottom: 3px solid #7431f0;
-    border-right: 3px solid #7431f0;
-    box-shadow: 3px 3px 0px #1982d3;
+    border: 2px solid #cce7d0;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
+    background-image: linear-gradient(to bottom right, #cce7d0, #00c6ff);
   }
   .nav1-2 li a {
     text-decoration: none;
@@ -279,20 +286,17 @@ h3 {
   }
   .nav1-2 li a h2 {
     font-size: 10px;
+    color: #1f6d83;
   }
   .nav1-2 li:hover {
-    color: red;
-    background-color: red;
-    /* transform: translateY(-2px); */
+    color: rgba(0, 174, 255, 0.158);
+    background-color: rgb(173, 233, 181);
+    transform: translateY(-1px);
   }
-  .nav1-2 a:hover {
-    /* transform: translateY(-2px); */
-    box-shadow: 0px 6px 0px #15d415;
-  }
+
   .nav1-2 li:active {
     transform: translateY(0px);
     box-shadow: none;
-    background-image: linear-gradient(to bottom right, #0072ff, #00c6ff);
   }
   .nav1-2 li a:before,
   .nav1-2 li a:after {
@@ -314,7 +318,10 @@ h3 {
   }
 
   body {
-    max-width: 667px;
+    max-width: 768px;
+    padding: 0px;
+    margin: 0px;
+    overflow-x: hidden;
   }
 
   #navbar {
@@ -339,7 +346,7 @@ h3 {
   #header {
     display: flex;
     flex-direction: column;
-    padding: 10px;
+    padding: 1px;
   }
   h1 {
     font-size: 0.8rem;
@@ -391,7 +398,7 @@ h3 {
   #parent-container {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 5px;
   }
 
   #product1,
@@ -406,7 +413,7 @@ h3 {
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
     justify-content: space-between;
-    padding: 10px;
+    padding: 10px 0;
   }
 
   #product1 .pro,
