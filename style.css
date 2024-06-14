@@ -83,11 +83,12 @@ h3 {
 }
 
 #hero {
-  background-image: url(images/3.png);
-  height: 90vh;
+  /* background-image: url(images/3.png); */
+  /* height: 90vh; */
   width: 100%;
-  background-position: top 0% left 90%;
-  background-size: cover;
+  /* background-position: top 0% left 90%; */
+  /* background-size: cover; */
+  background: linear-gradient(to bottom right, #00c6ff, #0072ff);
   padding: 10px 0;
   padding-left: 10px;
   display: flex;
@@ -166,7 +167,7 @@ h3 {
   display: flex;
   flex-direction: column;
   text-align: center;
-  margin: 20px;
+  margin: 10px;
 }
 
 #product1 .pro-container,
@@ -255,27 +256,34 @@ h3 {
   .nav1-2 ul {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
   }
 
   .nav1-2 li {
     list-style-type: none;
-    padding: 0 10px;
+    margin: 0 5px;
+    padding: 2px;
     position: relative;
-    box-shadow: 0px 4px 0px #0072ff;
+    /* border: 2px solid #0072ff; */
+    border-radius: 10px;
+    border-bottom: 3px solid #7431f0;
+    border-right: 3px solid #7431f0;
+    box-shadow: 3px 3px 0px #1982d3;
   }
   .nav1-2 li a {
     text-decoration: none;
     color: white;
-    background-image: linear-gradient(to bottom right, #00c6ff, #0072ff);
     transition: all 0.2s ease-in-out;
     cursor: pointer;
     text-decoration: none;
-    font-size: 16px;
+  }
+  .nav1-2 li a h2 {
+    font-size: 10px;
   }
   .nav1-2 li:hover {
+    color: red;
+    background-color: red;
     /* transform: translateY(-2px); */
-    box-shadow: 0px 6px 0px #15d415;
   }
   .nav1-2 a:hover {
     /* transform: translateY(-2px); */
@@ -301,19 +309,12 @@ h3 {
     border-left: 3px solid #fff;
   }
   nav1-2 li a:after {
-    bottom: -3px;
-    right: -3px;
     border-radius: 20px;
-    border-bottom: 3px solid #fff;
-    border-right: 3px solid #fff;
+    border-bottom: 3px solid #7431f0;
   }
 
   body {
     max-width: 667px;
-  }
-
-  .section-p {
-    padding: 10px 10px;
   }
 
   #navbar {
@@ -353,6 +354,10 @@ h3 {
   p {
     font-size: 0.6rem;
   }
+  hr {
+    height: 3px;
+    width: 90%;
+  }
 
   #hero {
     left: 0;
@@ -373,9 +378,9 @@ h3 {
     transition: all 0.2s ease-in-out;
     cursor: pointer;
   }
-  .nav1-2 {
-    display: none;
-  }
+  /* .nav1-2 {
+    display: block;
+  } */
 
   .pro img {
     height: 80px;
