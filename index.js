@@ -9,9 +9,11 @@ function generateHeaderHTML() {
         <h2>🏡Strada Principală nr 80/A</h2>
         <h2>💒Coșeiu, Sălaj</h2>
         <h2>📞0762 169 013</h2>
-        <h3>👷‍♂️Materiale, 🛠scule, 🔨unelte, 🛒casnice</h3>
+        <h3>👷‍♂️ Materiale |  🛠 scule </h3>
+        <h3>🔨 unelte |  🛒 casnice</h3>
       </div>
     </section>
+     <hr>
     <div class="nav1-2">
           <ul>
             <li>
@@ -22,6 +24,7 @@ function generateHeaderHTML() {
             </li>
           </ul>
         </div>
+        <hr>
   `;
 }
 
