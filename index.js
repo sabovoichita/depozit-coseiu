@@ -12,6 +12,16 @@ function generateHeaderHTML() {
         <h3>👷‍♂️Materiale, 🛠scule, 🔨unelte, 🛒casnice</h3>
       </div>
     </section>
+    <div class="nav1-2">
+          <ul>
+            <li>
+              <a href="#product1"><h2>Produse - Colectia Kober</h2></a>
+            </li>
+            <li>
+              <a href="#product2"><h2>Produse - Uz Casnic</h2></a>
+            </li>
+          </ul>
+        </div>
   `;
 }
 
@@ -22,12 +32,14 @@ function injectHeader() {
 function generateParentContainerHTML() {
   return `
     <div id="parent-container">
+    <h1>Produse Kober</h1>
       <section id="product1" class="section-p">
-        <div class="pro-container" id="pro-container"></div>
+        <div class="pro-container" id="pro-container1"></div>
       </section>
-      </hr>
+      <hr />
+      <h1>Produse Uz Casnic</h1>
       <section id="product2" class="section-p">
-        <div class="pro-container" id="pro-container"></div>
+        <div class="pro-container" id="pro-container2"></div>
       </section>
     </div>
   `;
@@ -37,8 +49,6 @@ function elementHTML(product) {
   const stars = Array(product.stars)
     .fill('<i class="fas fa-star"></i>')
     .join(" ");
-
-  // console.log("Product Details:", product);
 
   return `
     <div class="pro">
@@ -73,10 +83,9 @@ function loadProducts(filePaths) {
 
   Promise.all(productPromises)
     .then((productArrays) => {
-      const products = productArrays.flat();
-
-      injectHTML("pro-container", products);
-      console.log(products);
+      productArrays.forEach((products, index) => {
+        injectHTML(`pro-container${index + 1}`, products);
+      });
     })
     .catch((error) => {
       console.error("Error loading products:", error);
@@ -89,7 +98,7 @@ function initEvents() {
   const parentContainerHTML = generateParentContainerHTML();
   document.body.insertAdjacentHTML("beforeend", parentContainerHTML);
 
-  const productFiles = ["./products/1.json"];
+  const productFiles = ["./products/1.json", "./products/2.json"];
   loadProducts(productFiles);
 }
 
