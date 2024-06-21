@@ -23,7 +23,7 @@ function generateHeaderHTML() {
               <a href="#product2"><h2>Produse - Uz Casnic</h2></a>
             </li>
           </ul>
-        </div>
+    </div>
         <hr>
   `;
 }
