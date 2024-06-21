@@ -9,23 +9,23 @@ function generateHeaderHTML() {
         <h2>🏡Strada Principală nr 80/A</h2>
         <h2>💒Coșeiu, Sălaj</h2>
         <h2>📞0762 169 013</h2>
-        <h3>👷‍♂️ Materiale |  🛠 scule </h3>
-        <h3>🔨 unelte |  🛒 casnice</h3>
+        <h3>👷‍♂️ Materiale | 🛠 scule </h3>
+        <h3>🔨 unelte | 🛒 casnice</h3>
       </div>
     </section>
     <div id="myDropdown" class="dropdown">
-    <button class = "dropdown-btn">Menu</button>
-       <div class = "dropdown-content">
-       <input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()">
-          <ul>
-            <li>
-              <a href="#product1"><h2>Produse - Colectia Kober</h2></a>
-            </li>
-            <li>
-              <a href="#product2"><h2>Produse - Uz Casnic</h2></a>
-            </li>
-          </ul>
-        </div>
+      <button class="dropdown-btn" onclick="myFunction()">Menu</button>
+      <div class="dropdown-content">
+        <input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()">
+        <ul>
+          <li>
+            <a href="#product1" onclick="showSection('product1')"><h2>Produse - Colectia Kober</h2></a>
+          </li>
+          <li>
+            <a href="#product2" onclick="showSection('product2')"><h2>Produse - Uz Casnic</h2></a>
+          </li>
+        </ul>
+      </div>
     </div>
   `;
 }
@@ -40,7 +40,7 @@ function filterFunction() {
   const div = document.getElementById("myDropdown");
   const a = div.getElementsByTagName("a");
   for (let i = 0; i < a.length; i++) {
-    txtValue = a[i].textContent || a[i].innerText;
+    const txtValue = a[i].textContent || a[i].innerText;
     if (txtValue.toUpperCase().indexOf(filter) > -1) {
       a[i].style.display = "";
     } else {
@@ -56,7 +56,7 @@ function injectHeader() {
 function generateParentContainerHTML() {
   return `
     <div id="parent-container">
-    <h2>Produse Kober</h2>
+      <h2>Produse Kober</h2>
       <section id="product1" class="section-p">
         <div class="pro-container" id="pro-container1"></div>
       </section>
@@ -124,6 +124,20 @@ function initEvents() {
 
   const productFiles = ["./products/1.json", "./products/2.json"];
   loadProducts(productFiles);
+
+  document.getElementById("product1").style.display = "block";
+  document.getElementById("product2").style.display = "none";
+}
+
+function showSection(sectionId) {
+  const sections = document.querySelectorAll(".section-p");
+  sections.forEach((section) => {
+    if (section.id === sectionId) {
+      section.style.display = "block";
+    } else {
+      section.style.display = "none";
+    }
+  });
 }
 
 initEvents();
