@@ -13,8 +13,10 @@ function generateHeaderHTML() {
         <h3>🔨 unelte |  🛒 casnice</h3>
       </div>
     </section>
-     <hr>
-    <div class="nav1-2">
+    <div id="myDropdown" class="dropdown">
+    <button class = "dropdown-btn">Menu</button>
+       <div class = "dropdown-content">
+       <input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()">
           <ul>
             <li>
               <a href="#product1"><h2>Produse - Colectia Kober</h2></a>
@@ -23,9 +25,28 @@ function generateHeaderHTML() {
               <a href="#product2"><h2>Produse - Uz Casnic</h2></a>
             </li>
           </ul>
+        </div>
     </div>
-        <hr>
   `;
+}
+
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+function filterFunction() {
+  const input = document.getElementById("myInput");
+  const filter = input.value.toUpperCase();
+  const div = document.getElementById("myDropdown");
+  const a = div.getElementsByTagName("a");
+  for (let i = 0; i < a.length; i++) {
+    txtValue = a[i].textContent || a[i].innerText;
+    if (txtValue.toUpperCase().indexOf(filter) > -1) {
+      a[i].style.display = "";
+    } else {
+      a[i].style.display = "none";
+    }
+  }
 }
 
 function injectHeader() {
@@ -35,12 +56,12 @@ function injectHeader() {
 function generateParentContainerHTML() {
   return `
     <div id="parent-container">
-    <h1>Produse Kober</h1>
+    <h2>Produse Kober</h2>
       <section id="product1" class="section-p">
         <div class="pro-container" id="pro-container1"></div>
       </section>
       <hr />
-      <h1>Produse Uz Casnic</h1>
+      <h2>Produse Uz Casnic</h2>
       <section id="product2" class="section-p">
         <div class="pro-container" id="pro-container2"></div>
       </section>
