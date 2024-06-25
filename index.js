@@ -16,7 +16,7 @@ function generateHeaderHTML() {
     <div id="myDropdown" class="dropdown">
       <button class="dropdown-btn" onclick="myFunction()">Menu</button>
       <div class="dropdown-content">
-        <input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()">
+        <input type="text" placeholder="🔍Search.." id="myInput" onkeyup="filterFunction()">
         <ul>
         <li>
             <a href="#product1" data-section="product1"><h2>MATERIALE DE CONSTRUCȚII</h2></a>

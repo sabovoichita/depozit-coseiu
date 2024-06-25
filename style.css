@@ -152,7 +152,7 @@ h3 {
   display: none;
   position: relative;
   background-color: hsl(246, 25%, 92%);
-  max-width: 230px;
+  max-width: 220px;
   max-height: max-content;
   box-shadow: 0px 18px 16px 20px rgba(0, 0, 0, 0.3);
   z-index: 1;
@@ -384,15 +384,21 @@ h3 {
 
   #myInput {
     box-sizing: border-box;
-    font-size: 16px;
-    padding: 10px 10px 8px 10px;
+    font-size: 10px;
+    margin-inline-start: 15%;
+    margin-top: 5px;
+    width: 110px;
+    padding: 10px 8px 8px 10px;
     border: none;
+    border-radius: 5px;
+
     border-bottom: 1px solid #ddd;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.3);
   }
 
   #myInput:focus {
-    outline: 3px solid #ddd;
+    outline: 1px solid #ddd;
+    border-radius: 15px;
   }
   .dropdown-btn {
     background-image: linear-gradient(to bottom right, #cce7d0, #00c6ff);
@@ -418,7 +424,7 @@ h3 {
     display: none;
     position: absolute;
     background-color: hsl(246, 25%, 92%);
-    max-width: 220px;
+    max-width: max-content;
     max-height: max-content;
     box-shadow: 0px 18px 16px 20px rgba(0, 0, 0, 0.3);
     z-index: 1;
