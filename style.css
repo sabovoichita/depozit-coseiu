@@ -152,7 +152,7 @@ h3 {
   display: none;
   position: relative;
   background-color: hsl(246, 25%, 92%);
-  max-width: 240px;
+  max-width: 230px;
   max-height: max-content;
   box-shadow: 0px 18px 16px 20px rgba(0, 0, 0, 0.3);
   z-index: 1;
@@ -191,6 +191,7 @@ h3 {
 .dropdown-content h2 {
   padding: -2px;
   font-size: 0.6rem;
+  color: #088178;
 }
 
 .dropdown:hover .dropdown-content {
@@ -406,11 +407,11 @@ h3 {
     border-radius: 3px;
   }
   .dropdown {
-    position: absolute;
+    position: fixed;
     top: 0px;
     display: inline-block;
     z-index: 2;
-    width: 215px;
+    width: 230px;
     height: 450px;
     overflow-y: auto;
   }
@@ -419,7 +420,7 @@ h3 {
     display: none;
     position: absolute;
     background-color: hsl(246, 25%, 92%);
-    max-width: 270px;
+    max-width: 220px;
     max-height: max-content;
     box-shadow: 0px 18px 16px 20px rgba(0, 0, 0, 0.3);
     z-index: 1;
@@ -448,7 +449,7 @@ h3 {
     background: #dbe913;
     transition: 0.1s ease;
   }
-  .dropdown-content h2:hover {
+  .dropdown-content:hover h2 {
     color: #088178;
   }
   .dropdown-content h2 {

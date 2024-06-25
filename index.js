@@ -25,7 +25,7 @@ function generateHeaderHTML() {
             <a href="#product2" data-section="product2"><h2>SCULE/UTILAJE/ECHIPAMENTE</h2></a>
         </li>
         <li>
-            <a href="#product3" data-section="product3"><h2>VOPSELE</h2><img src="images/svg/paint.png" alt="paint" class="wd-nav-img"></a>
+            <a href="#product3" data-section="product3"><h2>VOPSELE</h2></a>
         </li>
         <li>
             <a href="#product4" data-section="product4"><h2>CERAMICĂ</h2></a>
@@ -37,7 +37,7 @@ function generateHeaderHTML() {
             <a href="#product6" data-section="product6"><h2>ELECTROCASNICE</h2></a>
         </li>
          <li>
-            <a href="#product7" data-section="product7"><h2>BUCĂTĂRIE</h2><img src="images/svg/kitchen.png" alt="kitchen" class="wd-nav-img"></a>
+            <a href="#product7" data-section="product7"><h2>BUCĂTĂRIE</h2></a>
         </li> <li>
             <a href="#product8" data-section="product8"><h2>PRODUSE DE CURĂȚENIE</h2></a>
         </li> <li>
@@ -46,9 +46,7 @@ function generateHeaderHTML() {
             <a href="#product10" data-section="product10"><h2>INSTALAȚII</h2></a>
         </li> <li>
             <a href="#product11" data-section="product11"><h2>FERONERIE</h2></a>
-        </li> <li>
-            <a href="#product12" data-section="product12"><h2>MOBILĂ</h2></a>
-        </li> <li>
+        </li>  <li>
             <a href="#product13" data-section="product13"><h2>DECORAȚIUNI</h2></a>
         </li> <li>
             <a href="#product14" data-section="product14"><h2>GRĂDINĂ</h2></a>
@@ -56,6 +54,9 @@ function generateHeaderHTML() {
             <a href="#product15" data-section="product15"><h2>ÎNGRIJIRE PERSONALĂ</h2></a>
         </li> <li>
             <a href="#product16" data-section="product16"><h2>SANITARE</h2></a>
+        </li>
+        <li>
+            <a href="#product12" data-section="product12"><h2>LENJERII DE PAT</h2></a>
         </li>
         <li>
             <a href="#product17" data-section="product17"><h2>UZ CASNIC</h2></a>
@@ -149,7 +150,7 @@ function generateParentContainerHTML() {
       </section>
 
       <section id="product12" class="section-p">
-          <h2>MOBILĂ</h2>
+          <h2>LENJERII DE PAT</h2>
           <div class="pro-container" id="pro-container12"></div>
       </section>
 
