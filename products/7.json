@@ -148,13 +148,6 @@
   },
   {
     "brand": "bucatarie",
-    "productName": "Mușama",
-    "price": "13 RON | metru liniar",
-    "imageSrc": "images/bucatarie/22.jpg",
-    "stars": 5
-  },
-  {
-    "brand": "bucatarie",
     "productName": "Tocător plastic ",
     "price": "10 RON",
     "imageSrc": "images/bucatarie/23.jpg",
