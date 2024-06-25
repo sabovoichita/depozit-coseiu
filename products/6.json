@@ -3,28 +3,28 @@
     "brand": "electrocasnice",
     "productName": "Fier de călcat",
     "price": "140 RON",
-    "imageSrc": "images/electrocasnice/25.jpg",
+    "imageSrc": "images/electrocasnice/1.jpg",
     "stars": 5
   },
   {
     "brand": "electrocasnice",
-    "productName": "Parfum cameră - diverse arome",
-    "price": "24 RON ",
-    "imageSrc": "images/electrocasnice/26.jpg",
+    "productName": "Mixer bucătarie",
+    "price": "99 RON",
+    "imageSrc": "images/electrocasnice/2.jpg",
     "stars": 5
   },
   {
     "brand": "electrocasnice",
-    "productName": "Parfum cameră - diverse arome",
-    "price": "24 RON",
-    "imageSrc": "images/electrocasnice/27.jpg",
+    "productName": "Mașină tocat carne",
+    "price": "80 RON",
+    "imageSrc": "images/electrocasnice/3.jpg",
     "stars": 5
   },
   {
     "brand": "electrocasnice",
-    "productName": "Parfum cameră - diverse arome",
-    "price": "24 RON",
-    "imageSrc": "images/electrocasnice/28.jpg",
+    "productName": "Storcător roșii",
+    "price": "60 RON",
+    "imageSrc": "images/electrocasnice/4.jpg",
     "stars": 5
   }
 ]

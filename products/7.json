@@ -90,26 +90,5 @@
     "price": "75 RON",
     "imageSrc": "images/bucatarie/21.jpg",
     "stars": 5
-  },
-  {
-    "brand": "bucatarie",
-    "productName": "Mixer bucătarie",
-    "price": "99 RON",
-    "imageSrc": "images/bucatarie/22.jpg",
-    "stars": 5
-  },
-  {
-    "brand": "bucatarie",
-    "productName": "Mașină tocat carne",
-    "price": "80 RON",
-    "imageSrc": "images/bucatarie/23.jpg",
-    "stars": 5
-  },
-  {
-    "brand": "bucatarie",
-    "productName": "Storcător roșii",
-    "price": "60 RON",
-    "imageSrc": "images/bucatarie/24.jpg",
-    "stars": 5
   }
 ]
