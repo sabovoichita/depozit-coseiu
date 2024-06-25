@@ -1,198 +1,58 @@
 [
   {
-    "brand": "uzcasnic",
-    "productName": "Set 2 persoane",
-    "price": "85 RON",
-    "imageSrc": "images/uzcasnic/1.jpg",
+    "brand": "scule",
+    "productName": "Betonieră",
+    "price": "1200 RON",
+    "imageSrc": "images/scule/1.jpg",
     "stars": 5
   },
   {
-    "brand": "uzcasnic",
-    "productName": "Set 2 persoane",
-    "price": "85 RON",
-    "imageSrc": "images/uzcasnic/2.jpg",
+    "brand": "scule",
+    "productName": "Roabă",
+    "price": "199 RON | 100L",
+    "imageSrc": "images/scule/2.jpg",
     "stars": 5
   },
   {
-    "brand": "uzcasnic",
-    "productName": "Set 2 persoane",
-    "price": "91 RON",
-    "imageSrc": "images/uzcasnic/3.jpg",
+    "brand": "scule",
+    "productName": "Filetanta cu 2 acumulatori",
+    "price": "160 RON",
+    "imageSrc": "images/scule/3.jpg",
     "stars": 5
   },
   {
-    "brand": "uzcasnic",
-    "productName": "Set 2 persoane",
-    "price": "110 RON",
-    "imageSrc": "images/uzcasnic/4.jpg",
+    "brand": "scule",
+    "productName": "Pompă submersibilă",
+    "price": "375 RON",
+    "imageSrc": "images/scule/4.jpg",
     "stars": 5
   },
   {
-    "brand": "uzcasnic",
-    "productName": "Set 2 persoane",
-    "price": "125 RON ",
-    "imageSrc": "images/uzcasnic/5.jpg",
+    "brand": "scule",
+    "productName": "Decupir",
+    "price": "320 RON ",
+    "imageSrc": "images/scule/5.jpg",
     "stars": 5
   },
   {
-    "brand": "uzcasnic",
-    "productName": "Set 2 persoane",
-    "price": "140 RON ",
-    "imageSrc": "images/uzcasnic/6.jpg",
+    "brand": "scule",
+    "productName": "Ciocan rotopercutor",
+    "price": "580 RON ",
+    "imageSrc": "images/scule/6.jpg",
     "stars": 5
   },
   {
-    "brand": "uzcasnic",
-    "productName": "Set 1 persoană",
-    "price": "70 RON",
-    "imageSrc": "images/uzcasnic/7.jpg",
+    "brand": "scule",
+    "productName": "Flex",
+    "price": "295 RON",
+    "imageSrc": "images/scule/7.jpg",
     "stars": 5
   },
   {
-    "brand": "uzcasnic",
-    "productName": "Mușama",
-    "price": "13 RON | metru liniar",
-    "imageSrc": "images/uzcasnic/8.jpg",
-    "stars": 5
-  },
-  {
-    "brand": "uzcasnic",
-    "productName": "Raft plastic",
-    "price": "135 RON",
-    "imageSrc": "images/uzcasnic/9.jpg",
-    "stars": 5
-  },
-  {
-    "brand": "uzcasnic",
-    "productName": "Set Oale cu Accesorii",
-    "price": "215 RON",
-    "imageSrc": "images/uzcasnic/10.jpg",
-    "stars": 5
-  },
-  {
-    "brand": "uzcasnic",
-    "productName": "Set farfurii",
-    "price": "205 RON",
-    "imageSrc": "images/uzcasnic/11.jpg",
-    "stars": 5
-  },
-  {
-    "brand": "uzcasnic",
-    "productName": "Suport Sticle Vin",
-    "price": "72 RON",
-    "imageSrc": "images/uzcasnic/12.jpg",
-    "stars": 5
-  },
-  {
-    "brand": "uzcasnic",
-    "productName": "Sticlă pălincă",
-    "price": "40 RON",
-    "imageSrc": "images/uzcasnic/13.jpg",
-    "stars": 5
-  },
-  {
-    "brand": "uzcasnic",
-    "productName": "Set Sticlă cu Pahare in Suport",
-    "price": "110 RON",
-    "imageSrc": "images/uzcasnic/14.jpg",
-    "stars": 5
-  },
-  {
-    "brand": "uzcasnic",
-    "productName": "Vioară suport sticlă vin - Moscatel",
-    "price": "92 RON",
-    "imageSrc": "images/uzcasnic/15.jpg",
-    "stars": 5
-  },
-  {
-    "brand": "Set Sticlă si Pahare in Suport",
-    "productName": "Vopsea",
-    "price": "65 RON",
-    "imageSrc": "images/uzcasnic/16.jpg",
-    "stars": 5
-  },
-  {
-    "brand": "Pitura",
-    "productName": "Suport Sticlă Pălincă",
-    "price": "62 RON",
-    "imageSrc": "images/uzcasnic/17.jpg",
-    "stars": 5
-  },
-  {
-    "brand": "uzcasnic",
-    "productName": "Set Sticle și Pahare Vin",
-    "price": "125 RON",
-    "imageSrc": "images/uzcasnic/18.jpg",
-    "stars": 5
-  },
-  {
-    "brand": "uzcasnic",
-    "productName": "Carafă",
-    "price": "25 RON",
-    "imageSrc": "images/uzcasnic/19.jpg",
-    "stars": 5
-  },
-  {
-    "brand": "uzcasnic",
-    "productName": "Carafă cu 2 pahare",
-    "price": "42 RON",
-    "imageSrc": "images/uzcasnic/20.jpg",
-    "stars": 5
-  },
-  {
-    "brand": "uzcasnic",
-    "productName": "Vas roman",
-    "price": "75 RON",
-    "imageSrc": "images/uzcasnic/21.jpg",
-    "stars": 5
-  },
-  {
-    "brand": "uzcasnic",
-    "productName": "Mixer bucătarie",
-    "price": "99 RON",
-    "imageSrc": "images/uzcasnic/22.jpg",
-    "stars": 5
-  },
-  {
-    "brand": "uzcasnic",
-    "productName": "Mașină tocat carne",
-    "price": "80 RON",
-    "imageSrc": "images/uzcasnic/23.jpg",
-    "stars": 5
-  },
-  {
-    "brand": "uzcasnic",
-    "productName": "Storcător roșii",
-    "price": "60 RON",
-    "imageSrc": "images/uzcasnic/24.jpg",
-    "stars": 5
-  },
-  {
-    "brand": "uzcasnic",
-    "productName": "Fier de călcat",
-    "price": "140 RON",
-    "imageSrc": "images/uzcasnic/25.jpg",
-    "stars": 5
-  },
-  {
-    "brand": "uzcasnic",
-    "productName": "Parfum cameră - diverse arome",
-    "price": "24 RON ",
-    "imageSrc": "images/uzcasnic/26.jpg",
-    "stars": 5
-  },
-  {
-    "brand": "uzcasnic",
-    "productName": "Parfum cameră - diverse arome",
-    "price": "24 RON",
-    "imageSrc": "images/uzcasnic/27.jpg",
-    "stars": 5
-  },
-  {
-    "brand": "uzcasnic",
-    "productName": "Parfum cameră - diverse arome",
-    "price": "24 RON",
-    "imageSrc": "images/uzcasnic/28.jpg",
+    "brand": "scule",
+    "productName": "Motocoasă",
+    "price": "780 RON",
+    "imageSrc": "images/scule/8.jpg",
     "stars": 5
   }
 ]
