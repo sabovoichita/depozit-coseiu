@@ -186,12 +186,12 @@ h3 {
   transition: 0.1s ease;
 }
 .dropdown-content h2:hover {
-  color: #088178;
+  color: #1c7b96;
 }
 .dropdown-content h2 {
   padding: -2px;
   font-size: 0.6rem;
-  color: #088178;
+  color: #1c7b96;
 }
 
 .dropdown:hover .dropdown-content {
@@ -267,12 +267,12 @@ h3 {
 }
 
 .section-p .pro .des span {
-  color: #088178;
+  color: #1c7b96;
   font-size: 10px;
 }
 
 .section-p .pro .des h5 {
-  color: #088178;
+  color: #1c7b96;
   font-size: 1px;
   margin: 0;
 }
@@ -285,7 +285,7 @@ h3 {
 .section-p .pro .des h4 {
   font-size: 12px;
   font-weight: 700;
-  color: #088178;
+  color: #1c7b96;
 }
 
 .section-p .pro .fa-cart-shopping {
@@ -294,7 +294,7 @@ h3 {
   line-height: 40px;
   border-radius: 50px;
   background-color: #e8f6ea;
-  color: #088178;
+  color: #1c7b96;
   border: 1px solid #cced70;
   position: absolute;
   bottom: 10px;
@@ -448,7 +448,7 @@ h3 {
     transition: 0.1s ease;
   }
   .dropdown-content:hover h2 {
-    color: #088178;
+    color: #1c7b96;
   }
   .dropdown-content h2 {
     padding: -2px;
@@ -519,12 +519,12 @@ h3 {
   }
 
   .section-p .pro .des span {
-    color: #088178;
+    color: #1c7b96;
     font-size: 10px;
   }
 
   .section-p .pro .des h5 {
-    color: #088178;
+    color: #1c7b96;
     font-size: 12px;
     margin: 0;
   }
@@ -536,7 +536,7 @@ h3 {
   .section-p .pro .des h4 {
     font-size: 12px;
     font-weight: 700;
-    color: #088178;
+    color: #1c7b96;
     margin: 5px;
   }
 
@@ -546,7 +546,7 @@ h3 {
     line-height: 40px;
     border-radius: 50px;
     background-color: #e8f6ea;
-    color: #088178;
+    color: #1c7b96;
     border: 1px solid #cced70;
     position: absolute;
     bottom: 10px;
