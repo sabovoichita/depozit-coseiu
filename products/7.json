@@ -1,12 +1,67 @@
 [
   {
     "brand": "bucatarie",
-    "productName": "Mușama",
-    "price": "13 RON | metru liniar",
+    "productName": "Platou pt gustări",
+    "price": "26 RON ",
+    "imageSrc": "images/bucatarie/1.jpg",
+    "stars": 5
+  },
+  {
+    "brand": "bucatarie",
+    "productName": "Platou pt gustări",
+    "price": "42 RON",
+    "imageSrc": "images/bucatarie/2.jpg",
+    "stars": 5
+  },
+  {
+    "brand": "bucatarie",
+    "productName": "Termos",
+    "price": "25 RON | 1L",
+    "imageSrc": "images/bucatarie/3.jpg",
+    "stars": 5
+  },
+  {
+    "brand": "bucatarie",
+    "productName": "Filtru pentru 6 cafele",
+    "price": "45 RON",
+    "imageSrc": "images/bucatarie/4.jpg",
+    "stars": 5
+  },
+  {
+    "brand": "bucatarie",
+    "productName": "Tigaie ",
+    "price": "65 RON | 11inch",
+    "imageSrc": "images/bucatarie/5.jpg",
+    "stars": 5
+  },
+  {
+    "brand": "bucatarie",
+    "productName": "Set 12 cuțite",
+    "price": "13 RON",
+    "imageSrc": "images/bucatarie/6.jpg",
+    "stars": 5
+  },
+  {
+    "brand": "bucatarie",
+    "productName": "Termometru bucătărie",
+    "price": "22 RON",
+    "imageSrc": "images/bucatarie/7.jpg",
+    "stars": 5
+  },
+  {
+    "brand": "bucatarie",
+    "productName": "Ustensile bucătărie",
+    "price": "11 RON",
+    "imageSrc": "images/bucatarie/8.jpg",
+    "stars": 5
+  },
+  {
+    "brand": "bucatarie",
+    "productName": "Spatula și Pensula silicon",
+    "price": "10 RON",
     "imageSrc": "images/bucatarie/9.jpg",
     "stars": 5
   },
-
   {
     "brand": "bucatarie",
     "productName": "Set Oale cu Accesorii",
@@ -89,6 +144,20 @@
     "productName": "Vas roman",
     "price": "75 RON",
     "imageSrc": "images/bucatarie/21.jpg",
+    "stars": 5
+  },
+  {
+    "brand": "bucatarie",
+    "productName": "Mușama",
+    "price": "13 RON | metru liniar",
+    "imageSrc": "images/bucatarie/22.jpg",
+    "stars": 5
+  },
+  {
+    "brand": "bucatarie",
+    "productName": "Tocător plastic ",
+    "price": "10 RON",
+    "imageSrc": "images/bucatarie/23.jpg",
     "stars": 5
   }
 ]
