@@ -268,13 +268,12 @@ h3 {
 
 .section-p .pro .des span {
   color: #088178;
-  font-size: 12px;
+  font-size: 10px;
 }
 
 .section-p .pro .des h5 {
-  padding-top: 7px;
   color: #088178;
-  font-size: 12px;
+  font-size: 1px;
   margin: 0;
 }
 
@@ -284,7 +283,6 @@ h3 {
 }
 
 .section-p .pro .des h4 {
-  padding-top: 7px;
   font-size: 12px;
   font-weight: 700;
   color: #088178;
@@ -522,11 +520,10 @@ h3 {
 
   .section-p .pro .des span {
     color: #088178;
-    font-size: 12px;
+    font-size: 10px;
   }
 
   .section-p .pro .des h5 {
-    padding-top: 7px;
     color: #088178;
     font-size: 12px;
     margin: 0;
@@ -537,10 +534,10 @@ h3 {
   }
 
   .section-p .pro .des h4 {
-    padding-top: 7px;
     font-size: 12px;
     font-weight: 700;
     color: #088178;
+    margin: 5px;
   }
 
   .section-p .pro .fa-cart-shopping {
