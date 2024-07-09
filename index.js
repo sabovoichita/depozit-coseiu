@@ -14,7 +14,7 @@ function generateHeaderHTML() {
       </div>
     </section>
     <div id="myDropdown" class="dropdown">
-      <button class="dropdown-btn" onclick="myFunction()">Menu</button>
+      <button class="dropdown-btn" onclick="myFunction()">Meniu</button>
       <div class="dropdown-content">
         <input type="text" placeholder="🔍Search.." id="myInput" onkeyup="filterFunction()">
         <ul>
